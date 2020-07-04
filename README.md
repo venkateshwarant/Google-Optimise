@@ -1,4 +1,4 @@
-# Google-Optimise
+# Google-Optimize
 A guide to setup AB testing using Google-Optimise
 
 ## General overview
