@@ -20,7 +20,7 @@ Laptop with at least 8 Gb memory (recommended 16 Gb, ideally 32 Gb)
 A randomized experiment using two or more variants of the same web page (A and B). Variant A is the original and variant B through n each contain at least one element that is modified from the original. The test is run mainly to determine which variant is popular among the users. We can assign weight to each variant. This weight is the probability that a random user will get the particular variant. Even we can target some variant to some geographical location. There are other multiple criterias for targetting which we will look in later sections.
 
 ### Redirect test
-A redirect test, (a.k.a. split URL test), is a type of A/B test that allows you to test separate web pages against each other. In redirect tests variants are identified by URL or path instead of an element(s) on the page. Redirect tests are useful when you want to test two very different landing pages, or a complete redesign of a page.
+A redirect test, (a.k.a. split URL test), is a type of A/B test that allows us to test separate web pages against each other. In redirect tests variants are identified by URL or path instead of an element(s) on the page. Redirect tests are useful when we want to test two very different landing pages, or a complete redesign of a page.
 
 ![Redirect test](https://lh3.googleusercontent.com/_GrZ6NO0PPKTJ6UME2MGZyUV_YRZM-YcbGqA6u4dT6nKwX1zom5Msrp3jIDm9Zzzzmw=w300)
 
