@@ -26,4 +26,5 @@ A redirect test is a type of A/B test that allows us to test different web pages
 Multivariate testing (MVT) helps us understand the interactions between multiple sections of a page by testing them together in a coordinated way. A multivariate test (MVT) tests variants of two or more portions of a web page simultaneously to see which combination creates the best outcome. Instead of showing which page variant is most effective (as in an A/B test), MVT identifies the most effective variant of each element and identifies the best combination of element variants.
 
 For example, the multivariate test below is useful for identifying the best headline (H1 vs. H2) and hero image (A vs. B vs. C) combination to use on a landing page.
+
 ![Multivariate test](https://lh3.googleusercontent.com/GrfqjjtR68O6xbCt7olSnwSKVVM0bUzYPs7HXmXVbpDZNSqOBQR5mMPXwRUA1irb7A=w500)
