@@ -40,3 +40,38 @@ Multivariate testing (MVT) helps us understand the interactions between multiple
 For example, the multivariate test below is useful for identifying the best headline (H1 vs. H2) and hero image (A vs. B vs. C) combination to use on a landing page.
 
 ![Multivariate test](https://lh3.googleusercontent.com/GrfqjjtR68O6xbCt7olSnwSKVVM0bUzYPs7HXmXVbpDZNSqOBQR5mMPXwRUA1irb7A=w500)
+
+## Getting started
+
+Google Analytics is a service offered by Google to implement tracking code, and set up data filters. With this service we can analyze our product's Audience, Acquisition, and Behavior reports, and set up goals and campaign tracking. Google Optimize is built as a separate serice which we can integrate with Google Analytics to create experiments with different ways of delivering the website content.
+
+Steps to configure Google Optimize is as follows:
+
+1. Follow this [link](https://support.google.com/analytics/answer/1008015?hl=en) to create an account in Google Analytics. Create a web property in the Analytics account. A property represents the website or an app, and is the collection point in Analytics for the data from the site or app.
+
+2. After creating the property, goto Admin > Account User Management > Permissions > enable all the permissions (Edit, Collaborate, Read&Analyse, Manage Users)
+
+3. Goto Admin > PROPERTY column > Tracking Info > Tracking Code. The Tracking ID is displayed at the top of the page. The global site tag is displayed farther down the page in a text box under Website Tracking > Global Site Tag (gtrag.js)
+**The global site tag**:
+The global site tag is several lines of code that we need to paste into each webpage we want to measure. It is similar to the below lines of code:
+```
+ 	 <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxxxxx-x"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'UA-xxxxxxxxx-x');
+	</script>
+```
+**NOTE**:
+**Tracking ID and property number**:
+* The tracking ID is a string like UA-000000-2. It must be included in the tracking code to tell Analytics which account and property to send data to.
+* The first set of numbers (-000000, in the example above) refers to the analytics account number, and the second set of numbers (-2) refers to the specific property number associated with the account.
+
+4. Add those lines of code immediately after the <head> tag on each page which we have to track.
+  
+5. We have to verify that our global site tag is working. To verify that the tag is working, visit our product website, and then check the [Real-Time reports](https://support.google.com/analytics/answer/1638635) in Analytics to verify that our visit was registered.
+
+6. Follow this [link](https://support.google.com/optimize/answer/6211921) to setup an Optimize account.
