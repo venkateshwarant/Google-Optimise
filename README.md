@@ -15,6 +15,16 @@ Laptop with at least 8 Gb memory (recommended 16 Gb, ideally 32 Gb)
 * Instructions to install here: https://github.com/acapozucca/helloworld/blob/master/product.helloworld/README.md
 * The product has to be deployed and tested whether it is available
 
+2. Google Analytics installed on our product website.
+* A detailed procedure to install Google Analytics in the helloworld product is given in [Getting started section.] (## Getting started)
+
+3. The Chrome web browser.
+* To create experiment variants with the visual editor, we need Google Chrome with the Optimize extension
+
+4. Optional: Optimize Chrome extension to create experiences in the Optimize visual editor. The Chrome extension isn't required to view reports.
+* Get it installed in the browser from this [link](https://chrome.google.com/webstore/detail/google-optimize/bhdplaindhdkiflmbfbciehdccfhegci)
+
+
 ## Basic terminologies
 ### A/B test
 A randomized experiment using two or more variants of the same web page (A and B). Variant A is the original and variant B through n each contain at least one element that is modified from the original. The test is run mainly to determine which variant is popular among the users. We can assign weight to each variant. This weight is the probability that a random user will get the particular variant. Even we can target some variant to some geographical location. There are other multiple criteria for targeting which we will look in later sections.
