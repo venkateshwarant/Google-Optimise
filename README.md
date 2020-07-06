@@ -72,7 +72,7 @@ The global site tag is several lines of code that we need to paste into each web
 * The tracking ID is a string like UA-000000-2. It must be included in the tracking code to tell Analytics which account and property to send data to.
 * The first set of numbers (-000000, in the example above) refers to the analytics account number, and the second set of numbers (-2) refers to the specific property number associated with the account.
 
-4. Add those lines of code immediately after the <head> tag on each page which we have to track.
+4. Add those lines of code immediately after the /<head/> tag on each page which we have to track.
   
 5. We have to verify that our global site tag is working. To verify that the tag is working, visit our product website, and then check the [Real-Time reports](https://support.google.com/analytics/answer/1638635) in Analytics to verify that our visit was registered.
 
