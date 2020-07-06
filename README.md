@@ -55,7 +55,7 @@ For example, the multivariate test below is useful for identifying the best head
 
 Google Analytics is a service offered by Google to implement tracking code, and set up data filters. With this service we can analyze our product's Audience, Acquisition, and Behavior reports, and set up goals and campaign tracking. Google Optimize is built as a separate serice which we can integrate with Google Analytics to create experiments with different ways of delivering the website content.
 
-**Steps to configure Google Optimize is as follows**:
+**Steps to configure Google Optimize:**
 
 1. Follow this [link](https://support.google.com/analytics/answer/1008015?hl=en) to create an account in Google Analytics. Create a web property named "helloworld" in the Analytics account. A property represents the website or an app, and is the collection point in Analytics for the data from the site or app.
 
