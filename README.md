@@ -16,7 +16,7 @@ Laptop with at least 8 Gb memory (recommended 16 Gb, ideally 32 Gb)
 * The product has to be deployed and tested whether it is available
 
 2. Google Analytics installed on our product website.
-* A detailed procedure to install Google Analytics in the helloworld product is given in [Getting started section.](##Getting-started)
+* A detailed procedure to install Google Analytics in the helloworld product is given in [Getting started section.](## Getting started)
 
 3. The Chrome web browser.
 * To create experiment variants with the visual editor, we need Google Chrome with the Optimize extension
