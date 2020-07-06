@@ -47,7 +47,7 @@ Google Analytics is a service offered by Google to implement tracking code, and 
 
 **Steps to configure Google Optimize is as follows**:
 
-1. Follow this [link](https://support.google.com/analytics/answer/1008015?hl=en) to create an account in Google Analytics. Create a web property in the Analytics account. A property represents the website or an app, and is the collection point in Analytics for the data from the site or app.
+1. Follow this [link](https://support.google.com/analytics/answer/1008015?hl=en) to create an account in Google Analytics. Create a web property named "helloworld" in the Analytics account. A property represents the website or an app, and is the collection point in Analytics for the data from the site or app.
 
 2. After creating the property, goto Admin > Account User Management > Permissions > enable all the permissions (Edit, Collaborate, Read&Analyse, Manage Users)
 
