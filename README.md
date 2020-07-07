@@ -64,6 +64,8 @@ A test consists of variants of our web page that we wish to measure against our 
 ### Personalizations
 Personalizations are a set of changes that we can target to a specific set of users. Unlike tests, personalizations can run forever and do not have variants - we have one set of changes that are shown to everyone who meets the targeting conditions.
 
+### Section
+A section is a single element of a web page (e.g. a button or an image) that is modified to create variants. An A/B test contains one section (with one or more variants). In a multivariate test, multiple sections are tested at the same time (e.g. a button and an image).
 ## Getting started
 
 Google Analytics is a service offered by Google to implement tracking code, and set up data filters. With this service we can analyze our product's Audience, Acquisition, and Behavior reports, and set up goals and campaign tracking. Google Optimize is built as a separate serice which we can integrate with Google Analytics to create experiments with different ways of delivering the website content.
@@ -109,6 +111,8 @@ Now that we have configured and installed Google Optimize in our web page, we ca
 
 ## Creating testcases
 
+### Creating AB Testcase
+
 1. Goto the Optimize account. Then click on the containers name to goto the experiments page. Then click Create experiment.
 
 2. Enter an Experiment name (up to 255 characters).
@@ -117,5 +121,25 @@ Now that we have configured and installed Google Optimize in our web page, we ca
 
 4. Click A/B test. Then click Create
 
-
 ![Create test](https://lh3.googleusercontent.com/kjoxLrZ-5Tk3GTS_oxSd_h7gB4VfS9MNsJ-ctejJWlFtoOWZMyDS244IGuOXSnwUNDtj=w895)
+
+#### Variants
+
+Normally AB test consists of 2 different variants. Here, we can create multiple variants of the test webpage. This is known as A/B/n Testing. To create a variant, click Create Variant, enter a variant name, then click Add. To start making changes. click anywhere in the variant row (which will say "0 changes"). This will launch the Optimize visual editor. Start editing in the visual editor and save it. All variants are weighted equally by default in Optimize. A visitor who is included in our experiment has an equal chance of seeing any of our variants. If we want to direct more, less, or even all of our traffic to a specific variant, we can adjust your variant weights on the experiment details page.
+
+#### Objectives
+There are three predefined objectives. They are-
+1. **Pageviews**
+It is the number of total views the corresponding webpage has got. Repeated views of a single page are counted.
+2. **Session duration**
+The length of a session in seconds. A session lasts as long as there is continued activity.
+3. **Bounces**
+Bounces are the number of single-page visits.
+
+### Creating Multivariate Testcase
+
+1. Creating a multivariate testcase is same as that of [creating AB testcases.](#creating-ab-testcase) except that in the final step we have to choose Multivariate test.
+
+NOTE: Refer [section](#section) to know more about sections.
+
+
