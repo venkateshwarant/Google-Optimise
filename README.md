@@ -149,3 +149,16 @@ NOTE: Refer [section](#section) to know more about sections.
 
 ### Creating Redirect Testcase
 
+1. Creating a redirect testcase is same as that of [creating AB testcases](#creating-ab-testcase) except that in the final step we have to choose redirect test.
+
+2. Optimize supports two types of redirect tests, single page and advanced.
+**Redirect to a single page** – Redirect pages to a single web page (with one or more variants) by specifying a URL.
+**Advanced redirect** – Modify part of the editor/original URL, redirect to multiple pages, and use regex.
+
+3. Once redirect test is created, we have to create variants of the URL. With this redirect test we can redirect the network calls made to a URL to another URL.
+
+
+## Targettings
+
+
+
