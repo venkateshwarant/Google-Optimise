@@ -108,3 +108,14 @@ The global site tag is several lines of code that we need to paste into each web
 Now that we have configured and installed Google Optimize in our web page, we can see how to create tests and use different types of targettings.
 
 ## Creating testcases
+
+1. Goto the Optimize account. Then click on the containers name to goto the experiments page. Then click Create experiment.
+
+2. Enter an Experiment name (up to 255 characters).
+
+3. Enter an Editor page URL (the web page we like to test).
+
+4. Click A/B test. Then click Create
+
+
+![Create test](https://lh3.googleusercontent.com/kjoxLrZ-5Tk3GTS_oxSd_h7gB4VfS9MNsJ-ctejJWlFtoOWZMyDS244IGuOXSnwUNDtj=w895)
