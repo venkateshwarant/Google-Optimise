@@ -11,17 +11,17 @@ Laptop with at least 8 Gb memory (recommended 16 Gb, ideally 32 Gb)
 
 ### Software
 
-1. The Web-based Hello World case study
+1. **The Web-based Hello World case study**
 * Instructions to install here: https://github.com/acapozucca/helloworld/blob/master/product.helloworld/README.md
 * The product has to be deployed and tested whether it is available
 
-2. Google Analytics installed on our product website.
+2. **Google Analytics installed on our product website.**
 * A detailed procedure to install Google Analytics in the helloworld product is given in steps 1-5 in [Getting started section.](#getting-started)
 
-3. The Chrome web browser.
+3. **The Chrome web browser.**
 * To create experiment variants with the visual editor, we need Google Chrome with the Optimize extension
 
-4. Optional: Optimize Chrome extension to create experiences in the Optimize visual editor. The Chrome extension isn't required to view reports.
+4. **Optional: Optimize Chrome extension** to create experiences in the Optimize visual editor. The Chrome extension isn't required to view reports.
 * Get it installed in the browser from this [link](https://chrome.google.com/webstore/detail/google-optimize/bhdplaindhdkiflmbfbciehdccfhegci)
 
 
