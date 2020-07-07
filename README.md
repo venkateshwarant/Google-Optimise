@@ -138,8 +138,14 @@ Bounces are the number of single-page visits.
 
 ### Creating Multivariate Testcase
 
-1. Creating a multivariate testcase is same as that of [creating AB testcases.](#creating-ab-testcase) except that in the final step we have to choose Multivariate test.
+1. Creating a multivariate testcase is same as that of [creating AB testcases](#creating-ab-testcase) except that in the final step we have to choose Multivariate test.
 
+2. Once the multivariate test is created, we have to create multiple options for each sections.
 NOTE: Refer [section](#section) to know more about sections.
 
+3. Once multiple options for sections is done, Optimize automatically creates the different combinations of the sections.
+
+4. We can select the objective and can target the test to a particular type of customer.
+
+### Creating Redirect Testcase
 
