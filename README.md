@@ -104,3 +104,7 @@ The global site tag is several lines of code that we need to paste into each web
 7. Link the Optimize account to the corresponding Analytics property(Follow the above link for this).
 
 8. We should install [Optimize chrome extension](https://chrome.google.com/webstore/detail/google-optimize/bhdplaindhdkiflmbfbciehdccfhegci) to edit our web pages with their visual editor feature. This feature comes in handy to edit web pages on the go.
+
+Now that we have configured and installed Google Optimize in our web page, we can see how to create tests and use different types of targettings.
+
+## Creating testcases
