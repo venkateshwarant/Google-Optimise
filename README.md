@@ -87,3 +87,7 @@ The global site tag is several lines of code that we need to paste into each web
 5. We have to verify that our global site tag is working. To verify that the tag is working, visit our product website, and then check the [Real-Time reports](https://support.google.com/analytics/answer/1638635) in Analytics to verify that our visit was registered.
 
 6. Follow this [link](https://support.google.com/optimize/answer/6211921) to create and setup an Optimize account.
+
+7. Link the Optimize account to the corresponding Analytics property(Follow the above link for this).
+
+8. 
