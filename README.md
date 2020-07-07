@@ -51,6 +51,19 @@ For example, the multivariate test below is useful for identifying the best head
 
 ![Multivariate test](https://lh3.googleusercontent.com/GrfqjjtR68O6xbCt7olSnwSKVVM0bUzYPs7HXmXVbpDZNSqOBQR5mMPXwRUA1irb7A=w500)
 
+### Experiences
+Experiences are website customizations made to achieve a desired goal. These customizations can be simple (e.g. a new Call To Action (CTA), or a larger thumbnail photo) or complex (e.g. multivariate and redirect tests)
+
+A common goal for website publishers is to produce better user experiences. Better user experiences increase brand trust, which creates loyal customers, which increases sales. Another common goal is to create personalized experiences that increase loyalty, stickiness and average cart size.
+
+In Optimize, experiences can either be tests (e.g. A/B, redirect, or MVT) or personalizations.
+
+### Tests
+A test consists of variants of our web page that we wish to measure against our original page to determine which is most effective at achieving our objective. Examples include A/B, redirect, and multivariate tests. Tests are measured based on the objective(s) we specify and can run for a maximum of 90 days.
+
+### Personalizations
+Personalizations are a set of changes that you can target to a specific set of users. Unlike tests, personalizations can run forever and do not have variants - you have one set of changes that are shown to everyone who meets the targeting conditions.
+
 ## Getting started
 
 Google Analytics is a service offered by Google to implement tracking code, and set up data filters. With this service we can analyze our product's Audience, Acquisition, and Behavior reports, and set up goals and campaign tracking. Google Optimize is built as a separate serice which we can integrate with Google Analytics to create experiments with different ways of delivering the website content.
