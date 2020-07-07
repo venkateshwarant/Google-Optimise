@@ -62,7 +62,7 @@ In Optimize, experiences can either be tests (e.g. A/B, redirect, or MVT) or per
 A test consists of variants of our web page that we wish to measure against our original page to determine which is most effective at achieving our objective. Examples include A/B, redirect, and multivariate tests. Tests are measured based on the objective(s) we specify and can run for a maximum of 90 days.
 
 ### Personalizations
-Personalizations are a set of changes that you can target to a specific set of users. Unlike tests, personalizations can run forever and do not have variants - you have one set of changes that are shown to everyone who meets the targeting conditions.
+Personalizations are a set of changes that we can target to a specific set of users. Unlike tests, personalizations can run forever and do not have variants - we have one set of changes that are shown to everyone who meets the targeting conditions.
 
 ## Getting started
 
