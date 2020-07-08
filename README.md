@@ -159,6 +159,12 @@ NOTE: Refer [section](#section) to know more about sections.
 
 
 ## Targettings
+This feature is used to target a test or a personalisation to a certain set of customers. Optimize includes two controls for targeting: Who and When. Who determines whether a user is eligible to be included in an experiment. When determines when it is appropriate to serve an eligible user (see Who, above) with an experiment variant. It is mandatory to configure who and when conditions while setting-up the targetting.
 
+### Google Analytics audiences
+This is an Optimize 360 feature (Optimize 360 is a paid suite provided Google).This allows us to focus our experiment on a group of users who have exhibited specific behaviors on our site. Audience targeting is useful for targeting high-value customers with special offers and incentives or loyal customers with an email signup. We can target users interested in a specific product category to see if a customized home page increases conversions. 
+
+### Google Ads
+To use this feature, we have to configure the Google Ads account. To configure Google Ads we need to have a proper website, so we cannot test it in localhost. This allows us to personalize our existing web pages based on specific ads that users click. For example, say if the user has already clicked ads related to shoes. Then we can personalize for that user to show products and deals related to shoes in our ecommerce website. 
 
 
